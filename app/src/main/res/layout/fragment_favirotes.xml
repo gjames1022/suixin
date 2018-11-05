@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <TextView
+      android:id="@+id/goods_id"
+      android:layout_width="wrap_content"
+      android:layout_height="60dp"
+      android:gravity="center"
+      android:layout_weight="1"
+      android:text="商品种类"
+      android:background="@color/white"/>
+
+  <View
+      android:layout_width="1dip"
+      android:layout_height="60dp"
+      android:layout_gravity="center_horizontal"
+      android:background="#e6e6e6"/>
+
+  <TextView
+      android:id="@+id/kucun_id"
+      android:layout_width="wrap_content"
+      android:layout_height="60dp"
+      android:gravity="center"
+      android:layout_weight="1"
+      android:text="库存数量"
+      android:background="@color/white"/>
+  <View
+      android:layout_width="1dip"
+      android:layout_height="60dp"
+      android:layout_gravity="center_horizontal"
+      android:background="#e6e6e6"/>
+  <TextView
+      android:id="@+id/ruku_id"
+      android:layout_width="wrap_content"
+      android:layout_height="60dp"
+      android:gravity="center"
+      android:layout_weight="1"
+      android:text="今日入库"
+      android:background="@color/white"/>
+  <View
+      android:layout_width="1dip"
+      android:layout_height="60dp"
+      android:layout_gravity="center_horizontal"
+      android:background="#e6e6e6"/>
+  <TextView
+      android:id="@+id/chuku_id"
+      android:layout_width="wrap_content"
+      android:layout_height="60dp"
+      android:gravity="center"
+      android:layout_weight="1"
+      android:text="今日出库"
+      android:background="@color/white"/>
+</LinearLayout>
